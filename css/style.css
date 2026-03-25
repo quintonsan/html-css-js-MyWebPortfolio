@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    color: #2e3c3d;
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #4f6c71;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #5b7c91;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: #0ef;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url("Purple Illustrated Mountain Desktop Wallpaper.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;      /* Vertical center */
+    padding: 20px 0;
+}
+
+.profile-pic {
+    width: 250px;             /* Professional size */
+    height: 250px;            /* Match width for a square */
+    object-fit: cover;        /* Prevents the image from stretching */
+    border-radius: 50%;       /* Optional: Makes the photo a perfect circle */
+    border: 3px solid #fff;   /* Optional: Adds a clean white border */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Adds depth */
+}
